@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(120deg,#057aff,#67d4ff);
+}
+
+ .wrapper {
+    width: 70%;
+    height: 80vh;
+    border: 2px solid rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+#CityName,
+.Submit,.WeatherStatus,.Tempercher,.City{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+
+
+button,
+input {
+    width: 200px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+.City,.Tempercher{
+    font-size: 30px;
+}
+
+button{
+    background: linear-gradient(120deg,#bdc000,#67d4ff);
+    transition: 0.3s;
+}
+
+button:hover{
+    background: linear-gradient(120deg,#67d4ff,#bdc000);
+}
